@@ -1,0 +1,20 @@
+body{
+    background:#fff;
+    font-size:14px;
+    font-family:arial, sans-serif;
+    text-decoration: none;
+    color:#222;;
+}
+
+header{
+    position:absolute;
+    top:4%;
+    word-spacing:0.9em;
+    display:inline;
+    width:100%;
+}
+
+#header2{
+    position:absolute;
+    right: 5%;
+}
