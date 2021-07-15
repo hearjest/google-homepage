@@ -3,18 +3,41 @@ body{
     font-size:14px;
     font-family:arial, sans-serif;
     text-decoration: none;
-    color:#222;;
+    color:#222;
+    
+}
+
+#center-container{
+    width:100%;
+    position:absolute;
+    top:35%;
+    text-align:center;
+}
+
+#Searchbar{
+    width:50%;
+}
+
+input{
+    border-radius:1em;
+    width:40em;
+    height:3em;
 }
 
 header{
-    position:absolute;
-    top:4%;
-    word-spacing:0.9em;
+    position:fixed;
+    top:2.5%;
+    word-spacing:1em;
     display:inline;
     width:100%;
 }
 
+#header1{
+    position:fixed;
+    left:1.5%;
+}
+
 #header2{
     position:absolute;
-    right: 5%;
+    right: 1.5%;
 }
