@@ -6,6 +6,7 @@ body{
     color:#222;
     margin:0;
     padding:0;
+    height:100%;
 }
 
 #center-container{
@@ -19,10 +20,11 @@ body{
     width:50%;
 }
 
-input{
+#searchBarContainer{
     border-radius:1em;
     width:40em;
     height:3em;
+    border-color: black;
 }
 
 header{
@@ -44,7 +46,7 @@ header{
 }
 
 #BottomOfPage{
-    position:fixed;
+    position:absolute;
     bottom:0%;
     display:flex;
     background-color:rgb(245, 245, 245);
@@ -72,3 +74,28 @@ a:link{
 a:hover{
     text-decoration: underline;
 }
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }  
